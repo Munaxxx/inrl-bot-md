@@ -20,7 +20,7 @@
 
 #### Deploy To Heroku 
 
-<a href="https://upper-romy-inrl-bot.koyeb.app/deploy/heroku"><img title="INRL-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://dashboard.heroku.com/new-app?template=https://github.com/Munaxxx/inrl-bot-md" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
 
 
 ---
