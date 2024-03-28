@@ -2,7 +2,6 @@
   "name": "god zenitsu",
   "description": "simple multi featured whatsapp bot",
   "keywords": ["whatsapp"],
-  "repository": "https://github.com/Munaxxx/inrl-bot-md"
   "env": {
     "SESSION_ID": {
       "description": "to run the bot",
