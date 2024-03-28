@@ -1,12 +1,6 @@
-FROM node:lts-buster
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
-RUN git clone https://github.com/i-nrl/inrl-bot-md /beta
-WORKDIR /beta
-RUN npm install
-CMD ["node", "index.js"]
+FROM quay.io/inrlwabot/inrl:latest
+RUN git clone https://github.com/inrl-official/inrl-bot-md /railway/inrl
+WORKDIR /railway/inrl/
+RUN yarn install --network-concurrency 1
+EXPOSE 8000
+CMD ["npm", "start"]
